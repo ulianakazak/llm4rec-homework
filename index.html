@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Lunch Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="title">Random Lunch Generator</h1>
+      <p class="subtitle">Не знаешь, что поесть? Доверься случайности!</p>
+    </header>
+
+    <section class="card" aria-live="polite">
+      <img
+        id="lunch-image"
+        class="lunch-image hidden"
+        width="160"
+        height="160"
+        src=""
+        alt="Здесь появится выбранное блюдо"
+      >
+      <h2 id="lunch-name" class="lunch-name">Нажми на кнопку!</h2>
+    </section>
+
+    <button id="generate-button" class="generate-button" type="button">
+      Generate Lunch!
+    </button>
+
+    <section class="menu">
+      <h3 class="menu-title">Меню на выбор:</h3>
+      <ul id="menu-list" class="menu-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+:root {
+  --bg-start: #ffb347;
+  --bg-end: #ffcc33;
+  --card-bg: #ffffff;
+  --text-dark: #333333;
+  --accent: #ff7e22;
+  --accent-hover: #e56c10;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle {
+  color: #fff8;
+  margin: 8px 0 20px;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lunch-image {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.lunch-image.hidden {
+  opacity: 0;
+}
+
+.card.pop .lunch-image {
+  animation: pop 0.4s ease;
+}
+
+.lunch-name {
+  color: var(--text-dark);
+  margin-top: 16px;
+  font-size: 1.5rem;
+}
+
+.generate-button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 36px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.generate-button:hover {
+  background: var(--accent-hover);
+}
+
+.generate-button:active {
+  transform: scale(0.96);
+}
+
+.menu {
+  margin-top: 24px;
+  color: #fff;
+}
+
+.menu-title {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #fff8;
+}
+
+.menu-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.menu-list li {
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--text-dark);
+  border-radius: 12px;
+  padding: 10px 6px;
+  font-size: 0.9rem;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .menu-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    min-height: 200px;
+  }
+
+  .lunch-image {
+    width: 140px;
+    height: 140px;
+  }
+}
