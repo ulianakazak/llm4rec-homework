@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Шашлык из курицы</title>
+  <desc id="desc">Шашлык из курицы на двух шампурах с луком и дымком</desc>
+  <rect width="200" height="200" rx="24" fill="#fff1e0"/>
+  <path d="M82 30 q8 -10 0 -18 M104 26 q8 -10 0 -18 M126 30 q8 -10 0 -18" stroke="#d0d0d0" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <line x1="44" y1="182" x2="156" y2="56" stroke="#b5803f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="100" y="118" width="38" height="28" rx="12" fill="#e7a356" transform="rotate(-49 119 132)"/>
+  <rect x="66" y="146" width="38" height="28" rx="12" fill="#d68f4b" transform="rotate(-49 85 160)"/>
+  <path d="M120 128 l10 8" stroke="#c9861d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="138" cy="88" r="16" fill="none" stroke="#fbfbfb" stroke-width="6"/>
+  <circle cx="138" cy="88" r="9" fill="none" stroke="#fbfbfb" stroke-width="5"/>
+</svg>
