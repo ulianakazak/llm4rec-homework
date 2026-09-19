@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Sandwich</title>
+  <desc id="desc">A sandwich with lettuce, tomato, cheese and meat</desc>
+  <rect width="200" height="200" rx="24" fill="#fff1e0"/>
+  <rect x="40" y="50" width="120" height="38" rx="14" fill="#f2c25f"/>
+  <path d="M52 56 a6 6 0 0 1 12 0 M74 54 a6 6 0 0 1 12 0 M94 58 a6 6 0 0 1 12 0 M116 54 a6 6 0 0 1 12 0" stroke="#e2a83d" stroke-width="4" fill="none"/>
+  <path d="M44 92 q25 -8 50 0 t58 0" stroke="#66bb6a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <rect x="44" y="102" width="112" height="14" rx="6" fill="#e53935"/>
+  <rect x="42" y="118" width="116" height="12" rx="6" fill="#ffe082"/>
+  <rect x="44" y="132" width="112" height="14" rx="6" fill="#b5651d"/>
+  <path d="M44 150 q27 -7 54 0 q27 7 58 0" stroke="#81c784" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <rect x="40" y="160" width="120" height="32" rx="12" fill="#f2c25f"/>
+  <path d="M52 174 a6 6 0 0 1 12 0 M76 170 a6 6 0 0 1 12 0 M98 174 a6 6 0 0 1 12 0 M118 170 a6 6 0 0 1 12 0" stroke="#e2a83d" stroke-width="4" fill="none"/>
+</svg>

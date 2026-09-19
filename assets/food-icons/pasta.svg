@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Pasta</title>
+  <desc id="desc">A plate of spaghetti with tomato sauce and parsley</desc>
+  <rect width="200" height="200" rx="24" fill="#d9eef7"/>
+  <circle cx="100" cy="122" r="72" fill="#ffffff"/>
+  <circle cx="100" cy="122" r="72" fill="none" stroke="#e3e3e3" stroke-width="6"/>
+  <circle cx="100" cy="122" r="52" fill="#f6f6f6"/>
+  <circle cx="100" cy="118" r="40" fill="#f7d154"/>
+  <path d="M64 118 q12 -20 30 -14 M76 100 q18 -16 34 -8 M90 116 q-8 -18 10 -22 M120 96 q-14 -12 -2 -26 M128 122 q-20 -6 -16 -22 M96 136 q30 -4 36 -22 M60 128 q24 -8 28 -24 M108 136 q24 0 30 -18" stroke="#efb318" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M72 106 q28 -24 54 0 q-8 26 -46 24 q-16 -6 -8 -24 z" fill="#a93a2b"/>
+  <circle cx="84" cy="102" r="4" fill="#4caf50"/>
+  <circle cx="94" cy="98" r="4" fill="#4caf50"/>
+</svg>

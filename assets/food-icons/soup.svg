@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Soup</title>
+  <desc id="desc">A bowl of warm soup with steam and a spoon</desc>
+  <rect width="200" height="200" rx="24" fill="#e0f2f1"/>
+  <path d="M66 40 q8 -10 0 -18 M88 44 q8 -10 0 -18 M110 40 q8 -10 0 -18" stroke="#cfcfcf" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M30 130 a70 54 0 0 0 140 0 z" fill="#fdf6ec"/>
+  <path d="M30 130 a70 54 0 0 0 140 0" fill="none" stroke="#e0d6c4" stroke-width="5"/>
+  <ellipse cx="100" cy="122" rx="66" ry="22" fill="#e6e0d2"/>
+  <ellipse cx="100" cy="116" rx="56" ry="17" fill="#b2d48b"/>
+  <path d="M96 108 a3 3 0 0 1 6 0 M108 112 a3 3 0 0 1 6 0 M86 114 a3 3 0 0 1 6 0 M100 120 a3 3 0 0 1 6 0" fill="#81b35a"/>
+  <line x1="160" y1="74" x2="136" y2="106" stroke="#b8b8b8" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="164" cy="68" rx="10" ry="7" fill="#cccccc"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Tacos</title>
+  <desc id="desc">A taco with beef, lettuce, tomatoes and cheese</desc>
+  <rect width="200" height="200" rx="24" fill="#d9f2d9"/>
+  <path d="M40 130 a62 62 0 0 1 120 0 z" fill="#edc276"/>
+  <path d="M48 130 a54 54 0 0 1 104 0 z" fill="#a5673f"/>
+  <ellipse cx="100" cy="112" rx="50" ry="20" fill="#7cb342"/>
+  <path d="M52 120 q16 -10 30 -4 t30 -4 t30 -2" stroke="#66bb6a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="84" cy="112" r="7" fill="#e53935"/>
+  <circle cx="100" cy="104" r="7" fill="#e53935"/>
+  <circle cx="116" cy="112" r="7" fill="#e53935"/>
+  <circle cx="92" cy="122" r="5" fill="#ffe082"/>
+  <circle cx="108" cy="122" r="5" fill="#ffe082"/>
+</svg>

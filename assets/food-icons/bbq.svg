@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">BBQ</title>
+  <desc id="desc">A charcoal grill with two sausages over hot coals</desc>
+  <rect width="200" height="200" rx="24" fill="#dbeafe"/>
+  <path d="M66 52 q8 -10 0 -18 M88 48 q8 -10 0 -18 M110 54 q8 -10 0 -18 M132 50 q8 -10 0 -18" stroke="#b0bec5" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <line x1="72" y1="156" x2="60" y2="192" stroke="#455a64" stroke-width="7" stroke-linecap="round"/>
+  <line x1="128" y1="156" x2="140" y2="192" stroke="#455a64" stroke-width="7" stroke-linecap="round"/>
+  <path d="M34 152 a66 30 0 0 1 132 0 z" fill="#546e7a"/>
+  <ellipse cx="100" cy="152" rx="66" ry="14" fill="#37474f"/>
+  <path d="M44 152 h112 M52 144 h96 M60 160 h80" stroke="#1f2c33" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="84" cy="162" r="5" fill="#ff8a3d"/>
+  <circle cx="100" cy="166" r="5" fill="#ff8a3d"/>
+  <circle cx="116" cy="160" r="5" fill="#ff8a3d"/>
+  <ellipse cx="80" cy="144" rx="21" ry="7" fill="#a64b2a" transform="rotate(8 80 144)"/>
+  <ellipse cx="124" cy="147" rx="21" ry="7" fill="#8d3b20" transform="rotate(-6 124 147)"/>
+  <path d="M68 146 l24 10 M114 150 l20 8" stroke="#5d2a14" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+</svg>
