@@ -1,0 +1,66 @@
+--- starter/index.html	2026-09-19 10:01:20
++++ index.html	2026-09-19 10:09:44
+@@ -61,7 +61,17 @@
+             font-size: 4rem;
+             margin-bottom: 15px;
+             color: #ff6b6b;
++            display: flex;
++            align-items: center;
++            justify-content: center;
++            height: 96px;
+         }
++
++        .food-icon img {
++            width: 96px;
++            height: 96px;
++            display: block;
++        }
+         
+         .food-name {
+             font-size: 2rem;
+@@ -152,20 +162,23 @@
+             const foodName = document.querySelector('.food-name');
+             const lunchDisplay = document.querySelector('.lunch-display');
+             
+-            // Array of lunch options with corresponding Font Awesome icons
++            // Array of lunch options with local SVG images (relative paths) and alt text.
++            // The original used Font Awesome icons; fa-bowl-hot, fa-pasta and fa-bowl
++            // are not available in Font Awesome 6.4.0 free, so each dish now has a
++            // local SVG image instead.
+             const lunchMenu = [
+-                { name: "Pizza", icon: "fas fa-pizza-slice" },
+-                { name: "Sushi", icon: "fas fa-fish" },
+-                { name: "Burger", icon: "fas fa-hamburger" },
+-                { name: "Salad", icon: "fas fa-leaf" },
+-                { name: "Tacos", icon: "fas fa-utensil-spoon" },
+-                { name: "Ramen", icon: "fas fa-bowl-hot" },
+-                { name: "Sandwich", icon: "fas fa-bread-slice" },
+-                { name: "Pasta", icon: "fas fa-pasta" },
+-                { name: "Curry", icon: "fas fa-mortar-pestle" },
+-                { name: "Steak", icon: "fas fa-drumstick-bite" },
+-                { name: "Soup", icon: "fas fa-bowl" },
+-                { name: "BBQ", icon: "fas fa-fire" }
++                { name: "Pizza", img: "assets/food-icons/pizza.svg", alt: "Pizza" },
++                { name: "Sushi", img: "assets/food-icons/sushi.svg", alt: "Sushi" },
++                { name: "Burger", img: "assets/food-icons/burger.svg", alt: "Burger" },
++                { name: "Salad", img: "assets/food-icons/salad.svg", alt: "Salad" },
++                { name: "Tacos", img: "assets/food-icons/tacos.svg", alt: "Tacos" },
++                { name: "Ramen", img: "assets/food-icons/ramen.svg", alt: "Ramen" },
++                { name: "Sandwich", img: "assets/food-icons/sandwich.svg", alt: "Sandwich" },
++                { name: "Pasta", img: "assets/food-icons/pasta.svg", alt: "Pasta" },
++                { name: "Curry", img: "assets/food-icons/curry.svg", alt: "Curry" },
++                { name: "Steak", img: "assets/food-icons/steak.svg", alt: "Steak" },
++                { name: "Soup", img: "assets/food-icons/soup.svg", alt: "Soup" },
++                { name: "BBQ", img: "assets/food-icons/bbq.svg", alt: "BBQ" }
+             ];
+             
+             // Function to generate random lunch
+@@ -183,7 +196,7 @@
+                 
+                 // After a short delay, show the selected lunch
+                 setTimeout(() => {
+-                    foodIcon.innerHTML = `<i class="${selectedLunch.icon}"></i>`;
++                    foodIcon.innerHTML = `<img src="${selectedLunch.img}" alt="${selectedLunch.alt}">`;
+                     foodName.textContent = selectedLunch.name;
+                     
+                     // Add animation class
